@@ -6,7 +6,7 @@
   "scripts": {
     "build": "react-scripts build && npm run copy-files",
     "start": "react-scripts start",
-    "copy-files": "cpy src/modal.jsx src/modal.css dist && cpy src/modal.jsx src/modal.css dist && cpy src/index.js dist"
+    "copy-files": "cpy src/modal.jsx src/modal.css dist && cpy src/index.js dist"
   },
   "keywords": [
     "react",
