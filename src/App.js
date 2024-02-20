@@ -1,12 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import Modal from './modal/modal';
+import TestModal from './modal/test-modal';
 
 function App() {
   return (
-    <Modal>
-      
-    </Modal>
+    <TestModal />
   );
 }
 

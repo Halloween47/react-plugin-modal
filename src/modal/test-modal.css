@@ -1,0 +1,11 @@
+#test-page {
+    background-color: blue;
+    width: 100%; height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#test-bouton {
+    margin-left: auto;
+    margin-right: auto;
+}

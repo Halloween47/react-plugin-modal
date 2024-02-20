@@ -1,5 +1,5 @@
 // import '../App.css'
-// import './modal.css'
+import './modal.css'
 import checkImage from '../assets/check.png'
 import crossImage from '../assets/remove.png'
 
