@@ -5,9 +5,9 @@ module.exports = {
     entry: './src/index.js', 
     output: {
         path: path.resolve(__dirname, 'dist'), 
-        filename: 'wealth-health-modal.js', 
+        filename: 'my-modal-wh.js', 
         libraryTarget: 'umd', 
-        library: 'WealthHealthModal', 
+        library: 'my-modal-wh', 
         umdNamedDefine: true,
     },
     module: {
