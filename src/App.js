@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Modal from './modal';
+import Modal from './modal/modal';
 
 function App() {
   return (
