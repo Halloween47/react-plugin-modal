@@ -1,12 +1,12 @@
 {
   "name": "wealth-health-modal",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Plugin Modal en React",
   "main": "dist/wealth-health-modal.js",
   "scripts": {
     "build": "react-scripts build && npm run copy-files",
     "start": "react-scripts start",
-    "copy-files": "cpy src/modal.jsx src/modal.css dist && cpy src/index.js dist"
+    "copy-files": "cpy src/modal/modal.jsx src/modal/modal.css dist && cpy src/index.js dist"
   },
   "keywords": [
     "react",
