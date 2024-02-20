@@ -1,6 +1,6 @@
 {
-  "name": "my-modal-plugin",
-  "version": "1.0.0",
+  "name": "wealth-health-modal",
+  "version": "1.0.1",
   "description": "Plugin Modal en React",
   "main": "dist/wealth-health-modal.js",
   "scripts": {

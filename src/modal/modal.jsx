@@ -20,7 +20,7 @@ return (
           <div className="messageModal">
             <img src={crossImage} alt="check" />
             <p>Erreur dans le formulaire.</p>
-            <p>Tous les champs doivent être renseignés.</p>
+            <p>Tous les champs doivent être renseignés.(version npm)</p>
             <button onClick={onClose}>Fermer</button>
           </div>
         </div>
