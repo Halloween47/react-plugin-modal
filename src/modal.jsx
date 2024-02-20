@@ -1,15 +1,30 @@
-function Modal() {
+import '../App.css'
+import '../css/modal.css'
+import checkImage from '../assets/check.png'
+import crossImage from '../assets/remove.png'
+
+function Modal({ onClose, etat }) {
 return (
     <>
-    {isOpen ? (
+      {etat ? (
         <div id="confirmation" className="modal">
-        Employee Created!
-    </div>
-    ) : (
+          <div className="messageModal">
+            <img src={checkImage} alt="check" />
+            <p>Employé ajouté avec succès</p>
+            <br />
+            <button onClick={onClose}>Fermer le modal</button>
+          </div>
+        </div>
+      ) : (
         <div id="confirmation" className="modal">
-        Problemes
-    </div>
-    )}
+          <div className="messageModal">
+            <img src={crossImage} alt="check" />
+            <p>Erreur dans le formulaire.</p>
+            <p>Tous les champs doivent être renseignés.</p>
+            <button onClick={onClose}>Fermer</button>
+          </div>
+        </div>
+      )}
     </>
 )
 }
