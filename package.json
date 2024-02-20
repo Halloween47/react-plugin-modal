@@ -1,6 +1,6 @@
 {
   "name": "my-modal-wh",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Plugin Modal en React pour le projet Wealth Healt",
   "main": "dist/my-modal-wh.js",
   "scripts": {
